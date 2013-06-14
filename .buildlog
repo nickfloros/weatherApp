@@ -1,0 +1,14 @@
+---
+build.dart --machine --full
+Unable to open file: /home/nick/dart/weatherApp/packages/web_ui/component_build.dart'file:///home/nick/dart/weatherApp/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [129 ms]
+
+---
+build.dart --machine --changed=deploy/weatherapp.css --changed=deploy/weatherapp.html --changed=deploy/xclickco...
+Unable to open file: /home/nick/dart/weatherApp/packages/web_ui/component_build.dart'file:///home/nick/dart/weatherApp/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [42 ms]
+
