@@ -19,9 +19,12 @@ main() {
   useHtmlConfiguration();
 
   test('Anemometer line parse test', () {
-    var line='2013/06/14,00:10.00,243,249,255,13.97,16.71,19.92,600';
-    AnemometerReading value = new AnemometerReading.parse(line);
-    expect(value.backed, equals(243));
+    var testLine = '2013/06/14,13:10.00,167,180,191,6.66,10.83,14.28,600';
+    var value = new AnemometerReading.parse(testLine);
+    expect(value.timeStamp.hour,equals(13));
+    expect(value.timeStamp.minute,equals(10));
+    expect(value.backed,equals(167));
+    expect(value.maxWindSpeed,equals(14.28));
   });
 
 }
