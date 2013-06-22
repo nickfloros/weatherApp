@@ -2,5 +2,7 @@ name: weatherApp
 description: A sample WebUI application
 dependencies:
   browser: any
+  google_maps: any
   js: any
+  unittest: any
   web_ui: any
