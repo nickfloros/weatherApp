@@ -12,3 +12,322 @@ import 'package:web_ui/component_build.dart';
 ^
 build.dart finished [42 ms]
 
+---
+build.dart --machine --changed=pubspec.lock --removed=deploy/weatherapp.css --removed=deploy/weatherapp.html --...
+Total time spent on web/weatherapp.html                      -- 818 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 926 ms
+build.dart finished [1939 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  38 ms
+build.dart finished [454 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  39 ms
+build.dart finished [465 ms]
+
+---
+build.dart --machine --changed=web/css/bootstrap-responsive.css --changed=web/css/bootstrap.css --changed=web/c...
+Total time                                                   --  34 ms
+build.dart finished [414 ms]
+
+---
+build.dart --machine --changed=lib/weather.dart
+Total time spent on web/weatherapp.html                      -- 663 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 706 ms
+build.dart finished [1097 ms]
+
+---
+build.dart --machine --changed=lib/weather.dart
+Total time spent on web/weatherapp.html                      -- 620 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 667 ms
+build.dart finished [1041 ms]
+
+---
+build.dart --machine --changed=lib/weatherStationModel.dart --removed=lib/weather.dart
+Total time spent on web/weatherapp.html                      -- 754 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 811 ms
+build.dart finished [1363 ms]
+
+---
+build.dart --machine --changed=lib/src/weather_station.dart
+Total time spent on web/weatherapp.html                      -- 613 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 656 ms
+build.dart finished [1045 ms]
+
+---
+build.dart --machine --changed=lib/src/weather_station.dart
+Total time spent on web/weatherapp.html                      -- 638 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 681 ms
+build.dart finished [1054 ms]
+
+---
+build.dart --machine --changed=lib/weatherStationModel.dart
+Total time spent on web/weatherapp.html                      -- 605 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 648 ms
+build.dart finished [1026 ms]
+
+---
+build.dart --machine --changed=lib/weatherStationModel.dart
+Total time spent on web/weatherapp.html                      -- 722 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 771 ms
+build.dart finished [1199 ms]
+
+---
+build.dart --machine --changed=lib/src/weather_station.dart
+Total time spent on web/weatherapp.html                      -- 606 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 649 ms
+build.dart finished [1029 ms]
+
+---
+build.dart --machine --changed=lib/src/weather_station.dart
+Total time spent on web/weatherapp.html                      -- 610 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 653 ms
+build.dart finished [1024 ms]
+
+---
+build.dart --machine --changed=lib/src/weather_station.dart
+Total time spent on web/weatherapp.html                      -- 605 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 648 ms
+build.dart finished [1028 ms]
+
+---
+build.dart --machine --changed=lib/src/anemometer_reading.dart
+Total time spent on web/weatherapp.html                      -- 686 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 734 ms
+build.dart finished [1206 ms]
+
+---
+build.dart --machine --changed=lib/src/anemometer_reading.dart
+Total time spent on web/weatherapp.html                      -- 689 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 738 ms
+build.dart finished [1163 ms]
+
+---
+build.dart --machine --changed=lib/weatherStationModel.dart
+Total time spent on web/weatherapp.html                      -- 695 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 743 ms
+build.dart finished [1179 ms]
+
+---
+build.dart --machine --changed=lib/src/weather_station.dart
+Total time spent on web/weatherapp.html                      -- 624 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 670 ms
+build.dart finished [1046 ms]
+
+---
+build.dart --machine --changed=lib/src/anemometer_reading.dart
+Total time spent on web/weatherapp.html                      -- 611 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 654 ms
+build.dart finished [1041 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   -- 132 ms
+build.dart finished [723 ms]
+
+---
+build.dart --machine --changed=web/data/highcliffe.dat
+Total time                                                   --  34 ms
+build.dart finished [450 ms]
+
+---
+build.dart --machine --changed=web/data/highcliffe.dat
+Total time                                                   --  37 ms
+build.dart finished [455 ms]
+
+---
+build.dart --machine --changed=lib/src/anemometer_reading.dart
+Total time spent on web/weatherapp.html                      -- 606 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 648 ms
+build.dart finished [1023 ms]
+
+---
+build.dart --machine --changed=test/browser_test.html
+Total time spent on web/weatherapp.html                      -- 608 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 651 ms
+build.dart finished [1065 ms]
+
+---
+build.dart --machine --changed=test/browser_test.html
+Total time spent on web/weatherapp.html                      -- 687 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 741 ms
+build.dart finished [1245 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 621 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 664 ms
+build.dart finished [1070 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 613 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 658 ms
+build.dart finished [1043 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 617 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 662 ms
+build.dart finished [1039 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 959 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 1108 ms
+build.dart finished [1638 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 607 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 652 ms
+build.dart finished [1027 ms]
+
+---
+build.dart --machine --changed=lib/weather_station_model.dart --removed=lib/weatherStationModel.dart
+Total time spent on web/weatherapp.html                      -- 618 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 661 ms
+build.dart finished [1074 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 700 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 750 ms
+build.dart finished [1291 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 607 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 650 ms
+build.dart finished [1033 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 609 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 658 ms
+build.dart finished [1029 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 607 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 650 ms
+build.dart finished [1029 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 603 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 647 ms
+build.dart finished [1021 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 601 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 645 ms
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=test/browser_test.dart
+Total time spent on web/weatherapp.html                      -- 625 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 670 ms
+build.dart finished [1070 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  39 ms
+build.dart finished [499 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/weatherapp.html                      -- 1726 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 1903 ms
+build.dart finished [3745 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: /home/nick/dart/weatherApp/packages/web_ui/component_build.dart'file:///home/nick/dart/weatherApp/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [33 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   -- 2706 ms
+build.dart finished [3683 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   -- 1398 ms
+build.dart finished [1900 ms]
+
+---
+build.dart --machine --changed=deploy/css/bootstrap-responsive.css --changed=deploy/css/bootstrap.css --changed...
+Total time spent on web/weatherapp.html                      -- 735 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 2375 ms
+build.dart finished [3686 ms]
+
+---
+build.dart --machine --changed=deploy/weatherapp.dart --changed=deploy/weatherapp.dart.js
+Total time spent on web/weatherapp.html                      -- 515 ms
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+Total time                                                   -- 1668 ms
+build.dart finished [2145 ms]
+
+---
+build.dart --machine --changed=README.md --changed=pubspec.lock --changed=pubspec.yaml --changed=test/browser_t...
+Total time spent on web/weatherapp.html                      -- 4198 ms
+[{"method":"generated","params":{"file":"web/out/weatherapp.dart"}}]
+[{"method":"generated","params":{"file":"web/out/_from_packages/weatherApp/src/client/weather_station_client.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/weatherapp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/_from_packages/weatherApp/weather_station_client.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/_from_packages/weatherApp/weather_station_client.dart"}}]
+[{"method":"generated","params":{"file":"web/out/_from_packages/weatherApp/src/client/weather_station_client.dart"}}]
+[{"method":"generated","params":{"file":"web/out/weatherapp.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/_from_packages/weatherApp/components/stationviewer.dart"}}]
+[{"method":"generated","params":{"file":"web/out/_from_packages/weatherApp/components/stationviewer.dart.map"}}]
+[{"method":"mapping","params":{"from":"web/weatherapp.html","to":"web/out/weatherapp.html"}}]
+[{"method":"generated","params":{"file":"web/out/weatherapp.html"}}]
+Total time                                                   -- 7043 ms
+build.dart finished [8240 ms]
+
+---
+build.dart --machine --removed=README.md
+Total time                                                   -- 2069 ms
+build.dart finished [2967 ms]
+

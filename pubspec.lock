@@ -4,19 +4,23 @@ packages:
   analyzer_experimental:
     description: analyzer_experimental
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   args:
     description: args
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   browser:
     description: browser
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   csslib:
     description: csslib
     source: hosted
     version: "0.4.7+6"
+  google_maps:
+    description: google_maps
+    source: hosted
+    version: "1.1.12"
   html5lib:
     description: html5lib
     source: hosted
@@ -28,24 +32,24 @@ packages:
   logging:
     description: logging
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   meta:
     description: meta
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   pathos:
     description: pathos
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   source_maps:
     description: source_maps
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   unittest:
     description: unittest
     source: hosted
-    version: "0.5.16"
+    version: "0.5.20"
   web_ui:
     description: web_ui
     source: hosted
-    version: "0.4.11+2"
+    version: "0.4.12+1"

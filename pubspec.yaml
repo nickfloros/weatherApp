@@ -2,10 +2,16 @@ name: weatherApp
 description: weather reporting app
 dependencies:
   browser: any
+<<<<<<< HEAD
   event_bus: any
   google_maps: any
   http: any
   js: any
   logging: any
   logging_handlers: any
+=======
+  google_maps: any
+  js: any
+  unittest: any
+>>>>>>> a3b9d16e29bb27213408684d19c6c06769d2f766
   web_ui: any

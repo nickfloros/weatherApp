@@ -18,9 +18,15 @@ injectSource(code) {
 main() {
   useHtmlConfiguration();
 
+<<<<<<< HEAD
   test('AnemometerReading line parse test', () {
     String testLine = '2013/06/14,13:10.00,167,180,191,6.66,10.83,14.28,600';
     
+=======
+ 
+  test('Anemometer line parse test', () {
+    var testLine = '2013/06/14,13:10.00,167,180,191,6.66,10.83,14.28,600';
+>>>>>>> a3b9d16e29bb27213408684d19c6c06769d2f766
     var value = new AnemometerReading.parse(testLine);
     expect(value.timeStamp.hour,equals(13));
     expect(value.timeStamp.minute,equals(10));
