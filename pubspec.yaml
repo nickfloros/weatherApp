@@ -1,6 +1,11 @@
 name: weatherApp
-description: A sample WebUI application
+description: weather reporting app
 dependencies:
   browser: any
+  event_bus: any
+  google_maps: any
+  http: any
   js: any
+  logging: any
+  logging_handlers: any
   web_ui: any

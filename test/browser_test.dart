@@ -1,5 +1,5 @@
 library tests;
-
+import 'dart:core';
 import 'dart:html';
 import 'dart:json';
 import 'package:unittest/unittest.dart';
@@ -18,8 +18,9 @@ injectSource(code) {
 main() {
   useHtmlConfiguration();
 
-  test('Anemometer line parse test', () {
-    var testLine = '2013/06/14,13:10.00,167,180,191,6.66,10.83,14.28,600';
+  test('AnemometerReading line parse test', () {
+    String testLine = '2013/06/14,13:10.00,167,180,191,6.66,10.83,14.28,600';
+    
     var value = new AnemometerReading.parse(testLine);
     expect(value.timeStamp.hour,equals(13));
     expect(value.timeStamp.minute,equals(10));
@@ -27,4 +28,18 @@ main() {
     expect(value.maxWindSpeed,equals(14.28));
   });
 
+  test('WeatherStation : payload read ',() {
+    try {
+      var request = HttpRequest.getString('http://www.weather-file.com/highcliffe/data/20130614.csv').then((String payload) {
+        print(payload);
+        expect(payload.length>0,true);
+      });
+    }
+    on HttpRequestProgressEvent {
+      expect(true,false);
+    }
+    catch ( e) {
+      expect(true,false);
+    }
+  });
 }
