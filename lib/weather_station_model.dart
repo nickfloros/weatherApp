@@ -2,9 +2,9 @@ library weatherStationModel;
 
 import 'dart:core';
 import 'dart:html';
-import 'dart:collection';
+import 'dart:collection' as dc;
 import 'dart:async';
 
-part 'src/weather_station.dart';
-part 'src/anemometer_reading.dart';
+part 'src/model/weather_station.dart';
+part 'src/model/anemometer_reading.dart';
 

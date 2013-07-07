@@ -4,10 +4,11 @@
   <head>
     <meta charset="utf-8">
     <title>Sample app</title>
-    <link rel="stylesheet" href="weatherapp.css">
+    <link ref="stylesheet" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" href="weatherapp.css">-->
     
     <!-- import the click-counter -->
-    <link rel="import" href="xclickcounter.html">
+    <link rel="import" href="packages/weatherApp/components/stationviewer.html">
   </head>
   <body>
     <h1>WeatherApp</h1>
@@ -15,10 +16,13 @@
     <p>Hello world from Dart!</p>
     
     <div id="sample_container_id">
-      <div is="x-click-counter" id="click_counter" count="{{startingCount}}"></div>
+      <div is="x-station_viewer" id="click_counter" station="{{weatherStations.stations.elementAt(0)}}"></div>
     </div>
-
+ <div id="map_canvas" style="height:640px;"></div>    
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    
     <script type="application/dart" src="weatherapp.dart"></script>
     <script src="packages/browser/dart.js"></script>
+    <script src="packages/browser/interop.js"></script>
   </body>
 </html>
