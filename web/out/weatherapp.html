@@ -2,24 +2,37 @@
 <!-- This file was auto-generated from web/weatherapp.html. -->
 <html><head><style>template { display: none; }</style>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
     <title>Sample app</title>
-    <link ref="stylesheet" href="../css/bootstrap.css">
-    <!--<link rel="stylesheet" href="weatherapp.css">-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-responsive.css">-->
+    <link rel="stylesheet" href="../weatherapp.css">
     
     <!-- import the click-counter -->
     
+    
   </head>
   <body>
-    <h1>WeatherApp</h1>
-    
-    <p>Hello world from Dart!</p>
-    
-    <div id="sample_container_id">
-      <div is="x-station_viewer" id="click_counter"></div>
+    <div id="map_canvas" style="height:100px;"></div>
+    <div class="scrollbar" id="style-1" syle="min-height:1000px;">
+      <div class="scrollable" style="height:100px;">
+        <div style="">
+          <p>Hello world from Dart!</p>
+          <div class="progress progress-striped active" style="width:100px;margin-left:auto;margin-right:auto;">
+            <div class="bar" style="width:100%"></div>
+          </div>
+          <div id="sample_container_id">
+            <div is="x-station_viewer" id="click_counter"></div>
+         </div>
+        </div>
+      </div>
     </div>
- <div id="map_canvas" style="height:640px;"></div>    
-        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     
+    
+
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     
     <script src="../packages/browser/dart.js"></script>
     <script src="../packages/browser/interop.js"></script>
